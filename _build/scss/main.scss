@@ -213,7 +213,7 @@ body.lock {
     letter-spacing: 0.18px;
     margin: 0px 0px 0px 36%;
     padding-left: 30px;
-    background: url("../../img/header/2.png") left no-repeat;
+    background: url("../img/header/2.png") left no-repeat;
     @media (max-width: $md2+px) {
       margin: 0px 0px 0px 10%;
     }
@@ -754,7 +754,7 @@ body.lock {
   }
 
   &__arow {
-    background-image: url("../../img/popular-travel/3.png");
+    background-image: url("../img/popular-travel/3.png");
     width: 17px;
     height: 28px;
     &_prev {
@@ -808,7 +808,7 @@ body.lock {
   bottom: 50%;
   z-index: 10;
   font-size: 0;
-  background-image: url("../../img/popular-travel/3.png");
+  background-image: url("../img/popular-travel/3.png");
   width: 17px;
   height: 28px;
 }
@@ -860,7 +860,7 @@ body.lock {
   &__item {
     position: relative;
     height: 682px;
-    background: url("../../img/popular-travel/1.jpg") center no-repeat;
+    background: url("../img/popular-travel/1.jpg") center no-repeat;
 
     .slider-travel__background {
       position: relative;
@@ -897,7 +897,7 @@ body.lock {
   &__target {
     max-width: 196px;
 
-    background-image: url("../../img/popular-travel/0.png");
+    background-image: url("../img/popular-travel/0.png");
     background-repeat: no-repeat;
     height: 40px;
     margin: 0 auto;
@@ -1065,7 +1065,7 @@ body.lock {
     }
   }
   &__lengh_hour {
-    background: url(../../img/tours-honeymoon/4.png) left no-repeat;
+    background: url(../img/tours-honeymoon/4.png) left no-repeat;
   }
   &__text {
     color: #616161;
@@ -1084,7 +1084,7 @@ body.lock {
   }
 
   &__score {
-    background: url(../../img/tours-honeymoon/5.png) left repeat;
+    background: url(../img/tours-honeymoon/5.png) left repeat;
   }
 }
 .slider-tours .slick-list {
@@ -1159,7 +1159,7 @@ body.lock {
   font-size: 0;
   width: 45px;
   height: 45px;
-  background: url(../../img/discount/3.png) center no-repeat, rgba(0, 0, 0, 0.4);
+  background: url(../img/discount/3.png) center no-repeat, rgba(0, 0, 0, 0.4);
 }
 
 .discount__slider .slick-arrow.slick-prev {
@@ -1226,15 +1226,15 @@ body.lock {
     border-radius: 2px;
     background-color: #000000a8;
     &_share {
-      background: url(../../img/tours-honeymoon/6.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/6.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
 
     &_heart {
-      background: url(../../img/tours-honeymoon/7.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/7.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
 
     &_photo {
-      background: url(../../img/tours-honeymoon/8.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/8.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
   }
 }
@@ -1373,7 +1373,7 @@ body.lock {
   &__arrows {
     width: 45px;
     height: 45px;
-    background: url(../../img/discount/3.png) center no-repeat, rgba(0, 0, 0, 0.4);
+    background: url(../img/discount/3.png) center no-repeat, rgba(0, 0, 0, 0.4);
 
     &_prev {
     }
@@ -1461,7 +1461,7 @@ body.lock {
 }
 .btn {
   &__arow {
-    background: url(../../img/discount/4.png) 30px no-repeat;
+    background: url(../img/discount/4.png) 30px no-repeat;
   }
 }
 .slider-stock {
@@ -1570,7 +1570,7 @@ body.lock {
   }
 
   &__icon {
-    background: url(../../img/discount/7.png) left no-repeat;
+    background: url(../img/discount/7.png) left no-repeat;
   }
 
   &__price {
@@ -1609,7 +1609,7 @@ body.lock {
       text-align: center;
       position: relative;
       top: 50%;
-      background: url(../../img/discount/8.png) bottom no-repeat;
+      background: url(../img/discount/8.png) bottom no-repeat;
       padding-bottom: 25px;
       transform: translate(0%, -50%);
     }
@@ -1653,7 +1653,7 @@ body.lock {
   width: 46px;
   height: 50px;
 
-  background: url(../../img/discount/5.png) center no-repeat;
+  background: url(../img/discount/5.png) center no-repeat;
   @media (max-width: $md2+px) {
     bottom: -20%;
     display: flex;
@@ -1864,19 +1864,19 @@ body.lock {
   }
 
   &__icon-comment {
-    background: url(../../img/subscribe/5.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/5.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-heart {
-    background: url(../../img/subscribe/6.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/6.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-repost {
-    background: url(../../img/subscribe/7.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/7.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
@@ -1884,7 +1884,7 @@ body.lock {
 .footer {
   background-color: #1b2739;
   &__fon {
-    background: url(../../img/footer/1.png) center no-repeat;
+    background: url(../img/footer/1.png) center no-repeat;
     background-size: cover;
   }
   &__top {
@@ -1946,19 +1946,19 @@ body.lock {
   max-width: 179px;
   justify-content: space-between;
   &__icon-fac {
-    background: url(../../img/footer/2.png) center no-repeat;
+    background: url(../img/footer/2.png) center no-repeat;
     width: 8px;
     height: 13px;
   }
 
   &__icon-pn {
-    background: url(../../img/footer/3.png) center no-repeat;
+    background: url(../img/footer/3.png) center no-repeat;
     width: 12px;
     height: 12px;
   }
 
   &__icon-in {
-    background: url(../../img/footer/4.png) center no-repeat;
+    background: url(../img/footer/4.png) center no-repeat;
     width: 12px;
     height: 12px;
   }
@@ -1966,11 +1966,11 @@ body.lock {
   &__icon-tw {
     width: 13px;
     height: 10px;
-    background: url(../../img/footer/5.png) center no-repeat;
+    background: url(../img/footer/5.png) center no-repeat;
   }
 
   &__icon-go {
-    background: url(../../img/footer/6.png) center no-repeat;
+    background: url(../img/footer/6.png) center no-repeat;
     width: 18px;
     height: 12px;
   }
