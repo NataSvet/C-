@@ -132,7 +132,7 @@ body.lock {
   font-style: normal;
 }
 .wrap {
-  background: url("../../img/header/1.jpg") 0 0 / cover no-repeat;
+  background: url("../img/header/1.jpg") 0 0 / cover no-repeat;
 }
 .container__burger {
 }
@@ -1226,18 +1226,15 @@ body.lock {
     border-radius: 2px;
     background-color: #000000a8;
     &_share {
-      background: url(../../img/tours-honeymoon/6.png) center no-repeat,
-        rgba(0, 0, 0, 0.8);
+      background: url(../../img/tours-honeymoon/6.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
 
     &_heart {
-      background: url(../../img/tours-honeymoon/7.png) center no-repeat,
-        rgba(0, 0, 0, 0.8);
+      background: url(../../img/tours-honeymoon/7.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
 
     &_photo {
-      background: url(../../img/tours-honeymoon/8.png) center no-repeat,
-        rgba(0, 0, 0, 0.8);
+      background: url(../../img/tours-honeymoon/8.png) center no-repeat, rgba(0, 0, 0, 0.8);
     }
   }
 }
@@ -1376,8 +1373,7 @@ body.lock {
   &__arrows {
     width: 45px;
     height: 45px;
-    background: url(../../img/discount/3.png) center no-repeat,
-      rgba(0, 0, 0, 0.4);
+    background: url(../../img/discount/3.png) center no-repeat, rgba(0, 0, 0, 0.4);
 
     &_prev {
     }
@@ -1868,22 +1864,19 @@ body.lock {
   }
 
   &__icon-comment {
-    background: url(../../img/subscribe/5.png) center no-repeat,
-      rgba(241, 239, 239, 0.5);
+    background: url(../../img/subscribe/5.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-heart {
-    background: url(../../img/subscribe/6.png) center no-repeat,
-      rgba(241, 239, 239, 0.5);
+    background: url(../../img/subscribe/6.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-repost {
-    background: url(../../img/subscribe/7.png) center no-repeat,
-      rgba(241, 239, 239, 0.5);
+    background: url(../../img/subscribe/7.png) center no-repeat, rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
