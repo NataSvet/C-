@@ -883,6 +883,17 @@ body.lock {
     z-index: 2;
     box-shadow: 0 15px 30px rgba(230, 230, 230, 0.3);
     margin-bottom: 30px;
+    @media (max-width: $md3+px) {
+      width: 70%;
+      height: 35%;
+      bottom: 14%;
+    }
+    @media (max-width: 550px) {
+      width: 80%;
+    }
+    @media (max-width: $md4+px) {
+      width: 88%;
+    }
   }
 
   &__title {
@@ -1226,15 +1237,18 @@ body.lock {
     border-radius: 2px;
     background-color: #000000a8;
     &_share {
-      background: url(../img/tours-honeymoon/6.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/6.png) center no-repeat,
+        rgba(0, 0, 0, 0.8);
     }
 
     &_heart {
-      background: url(../img/tours-honeymoon/7.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/7.png) center no-repeat,
+        rgba(0, 0, 0, 0.8);
     }
 
     &_photo {
-      background: url(../img/tours-honeymoon/8.png) center no-repeat, rgba(0, 0, 0, 0.8);
+      background: url(../img/tours-honeymoon/8.png) center no-repeat,
+        rgba(0, 0, 0, 0.8);
     }
   }
 }
@@ -1740,20 +1754,28 @@ body.lock {
   }
   &__video {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    iframe {
+      position: relative;
+
+      left: 50%;
+      transform: translate(-50%, -50%);
+      @media (max-width: $md4+px) {
+        width: 93%;
+      }
+    }
     @media (max-width: $md3+px) {
       padding-bottom: 56.25%;
       padding-top: 30px;
       height: 0;
-      overflow: hidden;
+      //overflow: hidden;
       bottom: 0;
       iframe {
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
+        left: 50%;
+        width: 80%;
         height: 100%;
+        transform: translate(-50%, -50%);
       }
     }
   }
@@ -1864,19 +1886,22 @@ body.lock {
   }
 
   &__icon-comment {
-    background: url(../img/subscribe/5.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/5.png) center no-repeat,
+      rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-heart {
-    background: url(../img/subscribe/6.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/6.png) center no-repeat,
+      rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
 
   &__icon-repost {
-    background: url(../img/subscribe/7.png) center no-repeat, rgba(241, 239, 239, 0.5);
+    background: url(../img/subscribe/7.png) center no-repeat,
+      rgba(241, 239, 239, 0.5);
     width: 40px;
     height: 40px;
   }
